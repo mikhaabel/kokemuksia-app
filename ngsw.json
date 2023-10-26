@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1698326691781,
+  "index": "/kokemuksia-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/kokemuksia-app/favicon.ico",
+        "/kokemuksia-app/index.html",
+        "/kokemuksia-app/main.9c1841e0b4af0ebd.js",
+        "/kokemuksia-app/manifest.webmanifest",
+        "/kokemuksia-app/polyfills.50b1e90c4eac667a.js",
+        "/kokemuksia-app/runtime.25e559e695b1eded.js",
+        "/kokemuksia-app/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/kokemuksia-app/assets/icons/icon-128x128.png",
+        "/kokemuksia-app/assets/icons/icon-144x144.png",
+        "/kokemuksia-app/assets/icons/icon-152x152.png",
+        "/kokemuksia-app/assets/icons/icon-192x192.png",
+        "/kokemuksia-app/assets/icons/icon-384x384.png",
+        "/kokemuksia-app/assets/icons/icon-512x512.png",
+        "/kokemuksia-app/assets/icons/icon-72x72.png",
+        "/kokemuksia-app/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/kokemuksia-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/kokemuksia-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/kokemuksia-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/kokemuksia-app/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/kokemuksia-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/kokemuksia-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/kokemuksia-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/kokemuksia-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/kokemuksia-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/kokemuksia-app/index.html": "d2eafbe28214e2c197bac820276037dd6ce14913",
+    "/kokemuksia-app/main.9c1841e0b4af0ebd.js": "d5de5f4b8f941e533663c418b6f7f69d0b7e1513",
+    "/kokemuksia-app/manifest.webmanifest": "7d67d024a31a2149eb2397fad680c2e7e1e2e1d1",
+    "/kokemuksia-app/polyfills.50b1e90c4eac667a.js": "0bfca3024b08f0c9c48ca178cc673d1c7f2b6a7e",
+    "/kokemuksia-app/runtime.25e559e695b1eded.js": "b4ff8103ffca69fcb8069211cc662b378abba9f5",
+    "/kokemuksia-app/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
